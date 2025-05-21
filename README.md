@@ -1,30 +1,16 @@
-﻿# Solar Challenge Week 1
-## Setup Instructions
-1. Clone the repo
-2. Create virtual environment
-3. pip install -r requirements.txt
+ Solar Data Challenge – 10Academy Week 1
 
+This project is part of the 10Academy Week 1 challenge. It involves profiling, cleaning, exploring, and comparing solar datasets from Benin, Sierra Leone, and Togo to understand regional solar potential and prepare data for ranking analysis.
 
+---
 
-This repository contains data profiling, cleaning, exploratory analysis, and cross-country comparison of solar datasets from **Benin**, **Togo**, and **Sierra Leone**.
+ Project Setup Instructions
 
-solar-challenge-week1/
-│
-├── data/ # Raw & cleaned CSVs
-│ ├── benin-malanville.csv
-│ ├── togo-kara.csv
-│ ├── sierraleone-bumbuna.csv
-│ ├── benin_clean.csv
-│ ├── togo_clean.csv
-│ ├── sierraleone_clean.csv
-│
-├── notebooks/ # All analysis notebooks
-│ ├── benin_eda.ipynb
-│ ├── togo_eda.ipynb
-│ ├── sierraleone_eda.ipynb
-│ ├── compare_countries.ipynb
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project overview
+ 1. GitHub Repository Setup
 
+1. Create a new repository on GitHub (e.g., `solar-challenge-week1`)
+2. Clone it to your local machine:
 
+```bash
+git clone https://github.com/<your-username>/solar-challenge-week1.git
+cd solar-challenge-week1
